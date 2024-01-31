@@ -5,7 +5,7 @@ import Logo from './Logo.vue';
 </script>
 
 <template>
-    <header class="px-10 py-5 bg-gray-700 flex justify-between absolute top-0 w-full z-10">
+    <header class="px-10 py-5 bg-sky-900 flex justify-between absolute top-0 w-full z-10 gap-1 space-y-3">
         <div>
             <Logo/>
         </div>  
@@ -13,17 +13,17 @@ import Logo from './Logo.vue';
         <nav>
             <RouterLink
                 :to="{name: 'products'}"
-                class="rounded text-white font-bold p-2 "
+                class="rounded text-white font-bold p-2"
             >
                 Productos
             </RouterLink>
             <RouterLink
                 :to="{name: 'sales'}"
-                class="rounded text-white font-bold p-2 "
+                class="rounded text-white font-bold p-2"
             >
                 Ventas
             </RouterLink>   
-            <Link to="shop">
+            <Link to="shop" >
                 Ir a Tienda
             </Link>
         </nav>

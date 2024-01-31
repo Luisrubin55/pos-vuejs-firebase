@@ -9,7 +9,7 @@ const products = useProductsStore()
 </script>
 
 <template>
-    <header class="px-10 py-5 bg-gray-700 flex flex-col lg:flex-row gap-5 lg:items-center justify-between absolute top-0 w-full z-10">
+    <header class="px-10 py-5 bg-sky-950 flex flex-col lg:flex-row gap-5 lg:items-center justify-between absolute top-0 w-full z-10">
         <div>
             <Logo />
             <div class="flex gap-5 text-white">

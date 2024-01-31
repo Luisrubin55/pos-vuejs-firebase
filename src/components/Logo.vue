@@ -1,6 +1,6 @@
 <template>
     <h1 class="text-3xl font-black text-white">
-        POS
-        <span class="text-green-400">Vue.js</span>
+        Moda
+        <span class="text-green-500">Viva</span>
     </h1>
 </template>

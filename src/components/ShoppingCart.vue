@@ -49,7 +49,7 @@ const coupon = useCouponStore()
         <CouponForm/>
         <button
             type="button"
-            class="mt-10 w-full bg-indigo-700 text-white uppercase p-3"
+            class="mt-10 w-full bg-indigo-700 text-white uppercase p-3 hover:bg-indigo-600"
             @click="cart.checkout"
         >
             Confirmar Compra
